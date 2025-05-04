@@ -6,7 +6,7 @@ export const envSchema = z.object({
   CLIENT_ID: z.string(),
   CLIENT_SECRET: z.string(),
   REDIRECT_URI: z.string(),
-  BEARER_TOKEN: z.string(),
+  BEARER_TOKEN: z.string(), 
 })
 
 export const env = envSchema.parse(process.env)

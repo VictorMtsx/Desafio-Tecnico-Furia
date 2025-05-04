@@ -16,7 +16,7 @@ export default function Dash() {
             </div>
             <div className="w-full flex flex-col justify-center items-center gap-2">
               <div className="w-[85%] border-2 flex justify-around items-center bg-purple-900 rounded-sm">
-                <p className="font-medium text-zinc-950">1°</p>
+                <p className="font-medium text-zinc-950">1° </p>
                 <span className="font-medium text-zinc-950">@vtz</span>
               </div>
               <div className="w-[85%] border-2 flex justify-around items-center bg-purple-900 rounded-sm">

@@ -1,12 +1,14 @@
 import { useForm } from 'react-hook-form'
+import { useNavigate } from 'react-router-dom'
 
 export default function Login() {
   const { register, handleSubmit } = useForm()
+  const navigate = useNavigate()
 
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <form
-        onSubmit={handleSubmit(data => console.log(data))}
+        onSubmit={handleSubmit()}
         className="w-full max-w-md bg-zinc-900 p-6 rounded-xl shadow-lg border border-zinc-800 flex flex-col gap-6"
       >
         <div className="w-full flex flex-col">
@@ -52,3 +54,8 @@ export default function Login() {
     </div>
   )
 }
+
+// () => {
+//   window.location.href =
+//     'https://043b-177-23-37-110.ngrok-free.app/login'
+// }
