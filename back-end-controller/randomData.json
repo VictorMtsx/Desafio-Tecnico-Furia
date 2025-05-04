@@ -1,0 +1,205 @@
+[
+  {
+    "id": "d9c92c7d-00d5-4de2-838c-e6aa60c2fe3a",
+    "image": "https://placeimg.com/640/480/any",
+    "name": "Sabrina Ribeiro",
+    "nickname": "@sabrina766",
+    "age": 27,
+    "twitter": "https://twitter.com/sabrina766",
+    "cityAndState": "Sete Lagoas/MG",
+    "game": "VALORANT",
+    "createdAt": "2022-12-08T11:20:31",
+    "follows": [
+      "https://twitter.com/furia",
+      "https://twitter.com/saciwrld",
+      "https://twitter.com/qckfps"
+    ],
+    "mainEsportsPage": "https://twitter.com/valesports_br",
+    "posts": [
+      "Fui em um show ontem, sensacional!",
+      "Saci deu aula na partida de hoje.",
+      "Comprei um novo celular, amando a câmera!",
+      "Torcendo sempre pela FURIA no VCT!",
+      "Esse friozinho pede um café quentinho ☕",
+      "Voltei pra academia, agora vai!",
+      "QCK tá jogando demais nesse split.",
+      "Hoje fiz lasanha pela primeira vez!",
+      "Tô maratonando uma série nova da Netflix, muito boa!",
+      "A vida é feita de momentos simples."
+    ]
+  },
+  {
+    "id": "c7e0870b-1b53-4eb9-88c7-ef3a147e0032",
+    "image": "https://placeimg.com/640/480/people?random=0",
+    "name": "Lucas Silva",
+    "nickname": "@lucasslv",
+    "age": 23,
+    "twitter": "https://twitter.com/lucasslv",
+    "cityAndState": "São Paulo/SP",
+    "game": "VALORANT",
+    "createdAt": "2023-07-15T06:14:56",
+    "follows": [
+      "https://twitter.com/saciwrld",
+      "https://twitter.com/qckfps",
+      "https://twitter.com/furia"
+    ],
+    "mainEsportsPage": "https://twitter.com/ValorantEsports",
+    "posts": [
+      "Mais uma vitória da FURIA, tamo junto!",
+      "Partida insana da FURIA hoje, GG!",
+      "Estudando bastante pro vestibular.",
+      "Novo teclado gamer chegou 😍",
+      "A FURIA sempre surpreendendo no CS!",
+      "Nova skin no VALORANT ficou linda.",
+      "Esse split do CBLOL tá muito bom.",
+      "Fui ao cinema ontem, ótimo filme!",
+      "Final de semana começando bem!",
+      "Domingo de churrasco com a família."
+    ]
+  },
+  {
+    "id": "ba7a2e63-75e9-4f38-8b6d-438a9a71fdac",
+    "image": "https://placeimg.com/640/480/people?random=1",
+    "name": "Mariana Costa",
+    "nickname": "@maricosta",
+    "age": 29,
+    "twitter": "https://twitter.com/maricosta",
+    "cityAndState": "Fortaleza/CE",
+    "game": "League of Legends",
+    "createdAt": "2022-09-30T20:14:29",
+    "follows": [
+      "https://twitter.com/fntzlol",
+      "https://twitter.com/tyruzz",
+      "https://twitter.com/furia"
+    ],
+    "mainEsportsPage": "https://twitter.com/CBLOL",
+    "posts": [
+      "Mais uma vitória da FURIA, tamo junto!",
+      "Fui ao cinema ontem, ótimo filme!",
+      "Nova skin no VALORANT ficou linda.",
+      "Esse split do CBLOL tá muito bom.",
+      "Domingo de churrasco com a família.",
+      "Estudando bastante pro vestibular.",
+      "Partida insana da FURIA hoje, GG!",
+      "Final de semana começando bem!",
+      "A FURIA sempre surpreendendo no CS!",
+      "Novo teclado gamer chegou 😍"
+    ]
+  },
+  {
+    "id": "3ee01e52-2e48-486c-bad2-45666ef2d5cc",
+    "image": "https://placeimg.com/640/480/people?random=2",
+    "name": "Bruno Oliveira",
+    "nickname": "@bruno_oli",
+    "age": 21,
+    "twitter": "https://twitter.com/bruno_oli",
+    "cityAndState": "Curitiba/PR",
+    "game": "CS:GO",
+    "createdAt": "2022-11-06T20:12:33",
+    "follows": [
+      "https://twitter.com/arTcsgo",
+      "https://twitter.com/kscerato",
+      "https://twitter.com/furia"
+    ],
+    "mainEsportsPage": "https://twitter.com/ESLCS",
+    "posts": [
+      "Estudando bastante pro vestibular.",
+      "Domingo de churrasco com a família.",
+      "Mais uma vitória da FURIA, tamo junto!",
+      "A FURIA sempre surpreendendo no CS!",
+      "Partida insana da FURIA hoje, GG!",
+      "Final de semana começando bem!",
+      "Fui ao cinema ontem, ótimo filme!",
+      "Novo teclado gamer chegou 😍",
+      "Nova skin no VALORANT ficou linda.",
+      "Esse split do CBLOL tá muito bom."
+    ]
+  },
+  {
+    "id": "1bbd7ac6-cf2a-464b-bc2e-750b3e6a04f2",
+    "image": "https://placeimg.com/640/480/people?random=3",
+    "name": "Ana Paula",
+    "nickname": "@anapaulinha",
+    "age": 26,
+    "twitter": "https://twitter.com/anapaulinha",
+    "cityAndState": "Recife/PE",
+    "game": "League of Legends",
+    "createdAt": "2022-11-08T00:29:40",
+    "follows": [
+      "https://twitter.com/fntzlol",
+      "https://twitter.com/tyruzz",
+      "https://twitter.com/furia"
+    ],
+    "mainEsportsPage": "https://twitter.com/CBLOL",
+    "posts": [
+      "Final de semana começando bem!",
+      "Esse split do CBLOL tá muito bom.",
+      "Novo teclado gamer chegou 😍",
+      "Partida insana da FURIA hoje, GG!",
+      "Mais uma vitória da FURIA, tamo junto!",
+      "A FURIA sempre surpreendendo no CS!",
+      "Fui ao cinema ontem, ótimo filme!",
+      "Nova skin no VALORANT ficou linda.",
+      "Estudando bastante pro vestibular.",
+      "Domingo de churrasco com a família."
+    ]
+  },
+  {
+    "id": "189a4500-612e-45ef-818a-c4e5280ffb0d",
+    "image": "https://placeimg.com/640/480/people?random=4",
+    "name": "Felipe Souza",
+    "nickname": "@felipe_s",
+    "age": 24,
+    "twitter": "https://twitter.com/felipe_s",
+    "cityAndState": "Manaus/AM",
+    "game": "VALORANT",
+    "createdAt": "2022-07-23T06:25:25",
+    "follows": [
+      "https://twitter.com/saciwrld",
+      "https://twitter.com/qckfps",
+      "https://twitter.com/furia"
+    ],
+    "mainEsportsPage": "https://twitter.com/valesports_br",
+    "posts": [
+      "Estudando bastante pro vestibular.",
+      "Final de semana começando bem!",
+      "Mais uma vitória da FURIA, tamo junto!",
+      "Domingo de churrasco com a família.",
+      "Fui ao cinema ontem, ótimo filme!",
+      "Nova skin no VALORANT ficou linda.",
+      "Esse split do CBLOL tá muito bom.",
+      "Partida insana da FURIA hoje, GG!",
+      "A FURIA sempre surpreendendo no CS!",
+      "Novo teclado gamer chegou 😍"
+    ]
+  },
+  {
+    "id": "e4dc55f1-3c1a-4f1e-96f3-4984ebf520eb",
+    "image": "https://placeimg.com/640/480/people?random=5",
+    "name": "Carla Mendes",
+    "nickname": "@carlamds",
+    "age": 22,
+    "twitter": "https://twitter.com/carlamds",
+    "cityAndState": "Porto Alegre/RS",
+    "game": "CS:GO",
+    "createdAt": "2024-03-04T12:41:19",
+    "follows": [
+      "https://twitter.com/arTcsgo",
+      "https://twitter.com/kscerato",
+      "https://twitter.com/furia"
+    ],
+    "mainEsportsPage": "https://twitter.com/ESLCS",
+    "posts": [
+      "Nova skin no VALORANT ficou linda.",
+      "Mais uma vitória da FURIA, tamo junto!",
+      "Estudando bastante pro vestibular.",
+      "Fui ao cinema ontem, ótimo filme!",
+      "Final de semana começando bem!",
+      "A FURIA sempre surpreendendo no CS!",
+      "Domingo de churrasco com a família.",
+      "Novo teclado gamer chegou 😍",
+      "Esse split do CBLOL tá muito bom.",
+      "Partida insana da FURIA hoje, GG!"
+    ]
+  }
+]

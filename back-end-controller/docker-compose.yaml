@@ -1,0 +1,25 @@
+services:
+  backend-furia:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - .:/backend
+    ports:
+      - 3030:3030
+
+  pg:
+    image: bitnami/postgresql:17.2.0
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: furia-db
+
+  redis:
+    image: bitnami/redis
+    ports:
+      - "6379:6379"
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
