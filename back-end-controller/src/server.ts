@@ -4,6 +4,7 @@ import authRoutes from './routes/auth.ts'
 import fastifyCookie from '@fastify/cookie'
 import fastifySession from '@fastify/session'
 import axios from 'axios'
+import cors from '@fastify/cors'
 
 dotenv.config()
 const fastify = Fastify({
@@ -12,7 +13,9 @@ const fastify = Fastify({
 fastify.register(fastifyCookie, {
   secret: 'seu-segredo-super-forte-min-32-chars', // Chave para assinar cookies
 })
-
+fastify.register(cors, {
+  origin: ['*'],
+})
 // Depois configure a sessão
 fastify.register(fastifySession, {
   secret: 'outro-segredo-super-forte-min-32-chars',
@@ -22,8 +25,22 @@ fastify.register(fastifySession, {
 })
 fastify.register(authRoutes)
 
-fastify.get('/', (request, reply) => {
-  reply.send('Hello, world!')
+interface Data {
+  image: string
+  name: string
+  nickname: string
+  age: number
+  twitter: string
+  cityAndState: string
+  games: string
+}
+
+fastify.post('/test', async (request, reply) => {
+  const body = request.body as Data
+  console.log('BODY:', body) // Deve imprimir os dados corretamente
+
+  const { nickname } = body
+  return reply.send({ nickname })
 })
 
 fastify.get('/followers', async (req, reply) => {

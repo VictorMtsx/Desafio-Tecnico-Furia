@@ -1,6 +1,6 @@
 import { db, pg } from '../db/postgresSQL/client.ts'
 import { furiaUsers } from '../db/postgresSQL/schema.ts'
-import { redis } from '../db/redis/client.ts'
+import CreateUserRedisSeed from './create-user-redis-seed.ts'
 
 async function seed() {
   await db.delete(furiaUsers).execute()
@@ -21,9 +21,7 @@ async function seed() {
     ])
     .execute()
 
-  await redis.hset(
-    `users:8f0f6f8b-2e48-486c-bad2-45666ef2d5cc:posts:1, 'Esse split do CBLOL tá muito bom.'`
-  )
+  await CreateUserRedisSeed()
 }
 
 seed().finally(() => {

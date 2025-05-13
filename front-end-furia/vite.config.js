@@ -10,5 +10,15 @@ export default defineConfig({
     open: true,
     host: '127.0.0.1',
     port: 5173,
+    proxy: {
+      '/login': {
+        target: 'https://1a9c-177-23-37-119.ngrok-free.app',
+        changeOrigin: true,
+      },
+      '/test': {
+        target: 'https://1a9c-177-23-37-119.ngrok-free.app',
+        changeOrigin: true,
+      },
+    },
   },
 })

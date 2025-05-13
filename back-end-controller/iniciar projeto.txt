@@ -1,0 +1,13 @@
+iniciar projeto fúria.
+
+back-end;
+
+Docker composse up -d
+ngrok http [porta do server em server.ts]
+pegar o domínio gerado pelo ngrok e settar ele em...
+
+* no redirect do form no front;
+* no portal do x como rota de redrect;
+* settar como variável de ambiente no .env;
+
+npm rum start.

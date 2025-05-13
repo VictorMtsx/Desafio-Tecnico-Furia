@@ -3,14 +3,28 @@ import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
 import { useForm } from 'react-hook-form'
 import Card from './card'
 import { useNavigate } from 'react-router-dom'
+import LoginAlert from './loginAlert'
 
 export default function Formulario() {
   const { register, handleSubmit, setValue } = useForm()
   const navigate = useNavigate()
 
-  const onSubmit = data => {
+  async function onSubmit(data) {
+    if (!data) return new Error('Preencha todos os campos')
     console.log(data)
-    navigate('/Card')
+    try {
+      await fetch('http://localhost:3000/test', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+      navigate('/login')
+      alert('Cadastro realizado com sucesso!')
+    } catch (error) {
+      console.error(error)
+    }
   }
 
   const [gamesOptions, setGamesOptions] = useState(

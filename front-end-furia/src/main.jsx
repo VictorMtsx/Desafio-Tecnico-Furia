@@ -5,6 +5,7 @@ import App from './App.jsx'
 import './index.css'
 import Card from './pages/form/card.jsx'
 import Login from './pages/login.jsx'
+import LoginAlert from './pages/form/loginAlert.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Login />,
+  },
+  {
+    path: '/login',
+    element: <LoginAlert />,
   },
 ])
 
